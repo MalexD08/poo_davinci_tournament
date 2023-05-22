@@ -1,5 +1,5 @@
 @startuml
-class torunament_pk.Player {
+class Tournament_pk.Player {
 - int number
 - String name
 - String position
@@ -13,7 +13,7 @@ class torunament_pk.Player {
 + int getGoalCounter()
 + void setGoalCounter(int)
 }
-class torunament_pk.Match {
+class Tournament_pk.Match {
 - String location
 - Date date
 - Team localTeam
@@ -33,7 +33,7 @@ class torunament_pk.Match {
 + int getVisitantGoalCounter()
 + void setVisitantGoalCounter(int)
 }
-class torunament_pk.Season {
+class Tournament_pk.Season {
 - String name
 - Date startDate
 - ArrayList<Match> matches
@@ -47,7 +47,7 @@ class torunament_pk.Season {
 + ArrayList<Team> getTeams()
 + void setTeams(ArrayList<Team>)
 }
-class torunament_pk.Team {
+class Tournament_pk.Team {
 - String name
 - ArrayList<Player> players
 + String getName()
