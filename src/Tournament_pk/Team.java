@@ -1,4 +1,4 @@
-package Torunament_pk;
+package Tournament_pk;
 
 import java.util.ArrayList;
 
