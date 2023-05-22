@@ -1,4 +1,4 @@
-package torunament_pk;
+package Torunament_pk;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package torunament_pk;
+package Torunament_pk;
 
 public class Player {
     private int number;
