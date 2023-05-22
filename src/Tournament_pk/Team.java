@@ -21,4 +21,19 @@ public class Team {
     public void setPlayers(ArrayList<Player> players) {
         this.players = players;
     }
+
+    Team(){
+        setPlayers(new ArrayList<>());
+        setName("");
+    }
+
+    private Team(String name) {
+        setPlayers(ArrayList<Player>players);
+        setName("");
+    }
+
+    private Team(String name, ArrayList<Player>players){
+        setName(name);
+        setPlayers(players);
+    }
 }
