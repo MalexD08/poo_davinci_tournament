@@ -33,6 +33,8 @@ class Tournament_pk.Match {
 + int getVisitantGoalCounter()
 + void setVisitantGoalCounter(int)
 }
+
+
 class Tournament_pk.Season {
 - String name
 - Date startDate
@@ -47,6 +49,12 @@ class Tournament_pk.Season {
 + ArrayList<Team> getTeams()
 + void setTeams(ArrayList<Team>)
 }
+
+Tournament_pk.Season *-- Tournament_pk.Team
+Tournament_pk.Season *-- Tournament_pk.Match
+Tournament_pk.Team o-- Tournament_pk.Player
+
+
 class Tournament_pk.Team {
 - String name
 - ArrayList<Player> players
