@@ -42,4 +42,15 @@ public class Player {
         setName("");
         setPosition("");
     }
+
+    public Player(String name) {
+        setPosition("");
+        setName(name);
+    }
+
+    public Player(String name, String position){
+        setName(name);
+        setName(position);
+
+    }
 }
