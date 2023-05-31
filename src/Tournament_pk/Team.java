@@ -1,6 +1,6 @@
 package Tournament_pk;
 
-import java.util.ArrayList;
+import java.util.Arraylist;
 
 public class Team {
     private String name;
@@ -27,8 +27,8 @@ public class Team {
         setName("");
     }
 
-    private Team(String name) {
-        setPlayers(ArrayList<Player>players);
+    private Team() {
+        setPlayers(new ArrayList<>());
         setName("");
     }
 
