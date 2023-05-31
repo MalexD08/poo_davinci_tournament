@@ -13,7 +13,7 @@ public class Main {
         ArrayList<Player> playersA = new ArrayList<>();
 
         Team teamA= new Team("Equipo A", playersA);
-        System.out.println(teamA.getName())
+        System.out.println(teamA.getName());
 
         teamA.getPlayers().forEach(player -> {
             System.out.println(player.getName());

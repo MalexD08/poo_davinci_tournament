@@ -37,4 +37,9 @@ public class Player {
     public void setGoalCounter(int goalCounter) {
         this.goalCounter = goalCounter;
     }
+
+    public Player(){
+        setName("");
+        setPosition("");
+    }
 }
