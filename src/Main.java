@@ -9,8 +9,12 @@ public class Main {
         /*Team teamA = new Team("Equipo A");
         System.out.println(teamA.getName());*/
 
-        Player teacher = new Player();
+        Player teacher = new Player("Teacher");
+        Player student1 = new Player("student1");
         ArrayList<Player> playersA = new ArrayList<>();
+
+        playersA.add(teacher);
+        playersA.add(student1);
 
         Team teamA= new Team("Equipo A", playersA);
         System.out.println(teamA.getName());
