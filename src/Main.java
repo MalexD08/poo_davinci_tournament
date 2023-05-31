@@ -1,5 +1,5 @@
-import Tournament_pk.Player;
-import Tournament_pk.Team;
+import tournament_pk.Player;
+import tournament_pk.Team;
 
 import java.util.ArrayList;
 

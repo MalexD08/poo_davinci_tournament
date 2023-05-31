@@ -1,4 +1,4 @@
-package Tournament_pk;
+package tournament_pk;
 
 public class Player {
     private int number;
