@@ -5,7 +5,7 @@ import java.util.Date;
 public class Match {
     private String location;
     private Date date;
-    private Team localTeam;
+    private  Team localTeam;
     private Team visitantTeam;
     private int localGoalCounter;
     private int visitantGoalCounter;
