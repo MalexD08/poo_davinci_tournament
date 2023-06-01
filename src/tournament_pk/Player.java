@@ -1,10 +1,22 @@
 package tournament_pk;
-
 public class Player {
     private int number;
     private String name;
     private String position;
     private int goalCounter;
+    private Team team;
+
+    public String showTeam() {
+        return this.getName() + " pertenece a " + this.getTeam().getName();
+    }
+
+    public Team getTeam() {
+        return this.team;
+    }
+
+    public void setTeam(Team team) {
+        this.team = team;
+    }
 
     public int getNumber() {
         return number;
@@ -38,7 +50,7 @@ public class Player {
         this.goalCounter = goalCounter;
     }
 
-    public Player(){
+    public Player() {
         setName("");
         setPosition("");
     }
@@ -48,9 +60,8 @@ public class Player {
         setName(name);
     }
 
-    public Player(String name, String position){
+    public Player(String name, String position) {
         setName(name);
-        setName(position);
-
+        setPosition(position);
     }
 }
