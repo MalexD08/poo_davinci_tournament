@@ -6,8 +6,9 @@ import java.util.Date;
 public class Season {
     private String name;
     private Date startDate;
-    private ArrayList<Match>matches;
-    private ArrayList<Team>teams;
+    private Date endDate;
+    private ArrayList<Match> matches;
+    private ArrayList<Team> teams;
 
     public String getName() {
         return name;
@@ -23,6 +24,14 @@ public class Season {
 
     public void setStartDate(Date startDate) {
         this.startDate = startDate;
+    }
+
+    public Date getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(Date endDate) {
+        this.endDate = endDate;
     }
 
     public ArrayList<Match> getMatches() {
